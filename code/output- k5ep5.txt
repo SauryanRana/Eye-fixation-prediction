@@ -1,0 +1,378 @@
+(cv2) C:\Users\saury\OneDrive\Desktop\CV2\kfold - roc-auc\cv-project2.0-main\code>python train.py
+Using device: cuda
+Loading dataset from cache...
+Fold 1/5
+Loaded cached model from path_to_cached_model.pt
+Epoch [1/5], Step [1/52], Loss: 0.016684722155332565
+Epoch [1/5], Step [11/52], Loss: 0.014403070323169231
+Epoch [1/5], Step [21/52], Loss: 0.017736108973622322
+Epoch [1/5], Step [31/52], Loss: 0.016331011429429054
+Epoch [1/5], Step [41/52], Loss: 0.01462249830365181
+Epoch [1/5], Step [51/52], Loss: 0.015654992312192917
+Epoch [1/5], Training Loss: 0.01625429351742451, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06512004882097244, Accuracy: 0.7133341424160353, ROC-AUC: 0.8310456315640837
+Epoch [1/5], Validation RMSE: 0.06512004882097244, Accuracy: 0.7133341424160353, ROC-AUC: 0.8310456315640837
+Epoch [2/5], Step [1/52], Loss: 0.014065388590097427
+Epoch [2/5], Step [11/52], Loss: 0.016070174053311348
+Epoch [2/5], Step [21/52], Loss: 0.015213849022984505
+Epoch [2/5], Step [31/52], Loss: 0.015743326395750046
+Epoch [2/5], Step [41/52], Loss: 0.016715260222554207
+Epoch [2/5], Step [51/52], Loss: 0.013531535863876343
+Epoch [2/5], Training Loss: 0.01579652067560416, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06654512137174606, Accuracy: 0.7525294759303358, ROC-AUC: 0.8328281790789169
+Epoch [2/5], Validation RMSE: 0.06654512137174606, Accuracy: 0.7525294759303358, ROC-AUC: 0.8328281790789169
+Epoch [3/5], Step [1/52], Loss: 0.01616252213716507
+Epoch [3/5], Step [11/52], Loss: 0.01930149458348751
+Epoch [3/5], Step [21/52], Loss: 0.01713346503674984
+Epoch [3/5], Step [31/52], Loss: 0.01592886447906494
+Epoch [3/5], Step [41/52], Loss: 0.016790414229035378
+Epoch [3/5], Step [51/52], Loss: 0.015419332310557365
+Epoch [3/5], Training Loss: 0.01572703939074507, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06445451825857162, Accuracy: 0.7246965265096365, ROC-AUC: 0.8091344570559827
+Epoch [3/5], Validation RMSE: 0.06445451825857162, Accuracy: 0.7246965265096365, ROC-AUC: 0.8091344570559827
+Epoch [4/5], Step [1/52], Loss: 0.01570408046245575
+Epoch [4/5], Step [11/52], Loss: 0.014617864973843098
+Epoch [4/5], Step [21/52], Loss: 0.016069428995251656
+Epoch [4/5], Step [31/52], Loss: 0.015174687840044498
+Epoch [4/5], Step [41/52], Loss: 0.015074589289724827
+Epoch [4/5], Step [51/52], Loss: 0.01328368578106165
+Epoch [4/5], Training Loss: 0.015370992943644524, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06557892262935638, Accuracy: 0.7726778050813735, ROC-AUC: 0.8213938312807838
+Epoch [4/5], Validation RMSE: 0.06557892262935638, Accuracy: 0.7726778050813735, ROC-AUC: 0.8213938312807838
+Epoch [5/5], Step [1/52], Loss: 0.014536676928400993
+Epoch [5/5], Step [11/52], Loss: 0.016252033412456512
+Epoch [5/5], Step [21/52], Loss: 0.014193713665008545
+Epoch [5/5], Step [31/52], Loss: 0.01369280181825161
+Epoch [5/5], Step [41/52], Loss: 0.013853488489985466
+Epoch [5/5], Step [51/52], Loss: 0.015181001275777817
+Epoch [5/5], Training Loss: 0.015161920983630877, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06444976478815079, Accuracy: 0.8038302842675765, ROC-AUC: 0.8145880057274125
+Epoch [5/5], Validation RMSE: 0.06444976478815079, Accuracy: 0.8038302842675765, ROC-AUC: 0.8145880057274125
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22579479 18916073]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06444976478815079, Accuracy: 0.8238302842675765, ROC-AUC: 0.8145880057274125
+Fold 1, Validation RMSE: 0.06444976478815079, Accuracy: 0.8238302842675765, ROC-AUC: 0.8145880057274125
+Fold 2/5
+Loaded cached model from path_to_cached_model.pt
+Epoch [1/5], Step [1/52], Loss: 0.014601046219468117
+Epoch [1/5], Step [11/52], Loss: 0.01711547002196312
+Epoch [1/5], Step [21/52], Loss: 0.016705064103007317
+Epoch [1/5], Step [31/52], Loss: 0.017173169180750847
+Epoch [1/5], Step [41/52], Loss: 0.01590419001877308
+Epoch [1/5], Step [51/52], Loss: 0.014218529686331749
+Epoch [1/5], Training Loss: 0.0156608375075918, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06231577694416046, Accuracy: 0.8372307778915677, ROC-AUC: 0.8428842549022959
+Epoch [1/5], Validation RMSE: 0.06231577694416046, Accuracy: 0.8372307778915677, ROC-AUC: 0.8428842549022959
+Epoch [2/5], Step [1/52], Loss: 0.014239693060517311
+Epoch [2/5], Step [11/52], Loss: 0.013200460001826286
+Epoch [2/5], Step [21/52], Loss: 0.015282225795090199
+Epoch [2/5], Step [31/52], Loss: 0.014562034979462624
+Epoch [2/5], Step [41/52], Loss: 0.017583265900611877
+Epoch [2/5], Step [51/52], Loss: 0.015161251649260521
+Epoch [2/5], Training Loss: 0.015041931263672618, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06168300658464432, Accuracy: 0.8178077023773537, ROC-AUC: 0.8308121831176929
+Epoch [2/5], Validation RMSE: 0.06168300658464432, Accuracy: 0.8178077023773537, ROC-AUC: 0.8308121831176929
+Epoch [3/5], Step [1/52], Loss: 0.014190916903316975
+Epoch [3/5], Step [11/52], Loss: 0.014020265080034733
+Epoch [3/5], Step [21/52], Loss: 0.013906089588999748
+Epoch [3/5], Step [31/52], Loss: 0.015439130365848541
+Epoch [3/5], Step [41/52], Loss: 0.013559083454310894
+Epoch [3/5], Step [51/52], Loss: 0.015255949459969997
+Epoch [3/5], Training Loss: 0.014990587915795354, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.0683257058262825, Accuracy: 0.77582925225334994, ROC-AUC: 0.8254963883029324
+Epoch [3/5], Validation RMSE: 0.0683257058262825, Accuracy: 0.77582925225334994, ROC-AUC: 0.8254963883029324
+Epoch [4/5], Step [1/52], Loss: 0.013548719696700573
+Epoch [4/5], Step [11/52], Loss: 0.015304585918784142
+Epoch [4/5], Step [21/52], Loss: 0.014386654831469059
+Epoch [4/5], Step [31/52], Loss: 0.013946068473160267
+Epoch [4/5], Step [41/52], Loss: 0.014407390728592873
+Epoch [4/5], Step [51/52], Loss: 0.014284484088420868
+Epoch [4/5], Training Loss: 0.01489679107012657, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06355264037847519, Accuracy: 0.7755380191110604, ROC-AUC: 0.8255574532853638
+Epoch [4/5], Validation RMSE: 0.06355264037847519, Accuracy: 0.7755380191110604, ROC-AUC: 0.8255574532853638
+Epoch [5/5], Step [1/52], Loss: 0.015307358466088772
+Epoch [5/5], Step [11/52], Loss: 0.013932297937572002
+Epoch [5/5], Step [21/52], Loss: 0.014195017516613007
+Epoch [5/5], Step [31/52], Loss: 0.01567961275577545
+Epoch [5/5], Step [41/52], Loss: 0.016019927337765694
+Epoch [5/5], Step [51/52], Loss: 0.015027238987386227
+Epoch [5/5], Training Loss: 0.014770877672932468, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06489338725805283, Accuracy: 0.7500014796766651, ROC-AUC: 0.8130053824982467
+Epoch [5/5], Validation RMSE: 0.06489338725805283, Accuracy: 0.7500014796766651, ROC-AUC: 0.8130053824982467
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22654972 18840580]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06489338725805283, Accuracy: 0.7500014796766651, ROC-AUC: 0.8130053824982467
+Fold 2, Validation RMSE: 0.06489338725805283, Accuracy: 0.7500014796766651, ROC-AUC: 0.8130053824982467
+Fold 3/5
+Loaded cached model from path_to_cached_model.pt
+Epoch [1/5], Step [1/52], Loss: 0.01631072349846363
+Epoch [1/5], Step [11/52], Loss: 0.01555507630109787
+Epoch [1/5], Step [21/52], Loss: 0.015145182609558105
+Epoch [1/5], Step [31/52], Loss: 0.015730641782283783
+Epoch [1/5], Step [41/52], Loss: 0.012762161903083324
+Epoch [1/5], Step [51/52], Loss: 0.013156462460756302
+Epoch [1/5], Training Loss: 0.015255577414511489, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06481413543224335, Accuracy: 0.764810141578548, ROC-AUC: 0.832266470250823
+Epoch [1/5], Validation RMSE: 0.06481413543224335, Accuracy: 0.764810141578548, ROC-AUC: 0.832266470250823
+Epoch [2/5], Step [1/52], Loss: 0.013578741811215878
+Epoch [2/5], Step [11/52], Loss: 0.012663557194173336
+Epoch [2/5], Step [21/52], Loss: 0.014814641326665878
+Epoch [2/5], Step [31/52], Loss: 0.013591771014034748
+Epoch [2/5], Step [41/52], Loss: 0.014599439688026905
+Epoch [2/5], Step [51/52], Loss: 0.01630207523703575
+Epoch [2/5], Training Loss: 0.014612570548286805, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06153440102934837, Accuracy: 0.7972771973246674, ROC-AUC: 0.8248135121702496
+Epoch [2/5], Validation RMSE: 0.06153440102934837, Accuracy: 0.7972771973246674, ROC-AUC: 0.8248135121702496
+Epoch [3/5], Step [1/52], Loss: 0.014377294108271599
+Epoch [3/5], Step [11/52], Loss: 0.014590420760214329
+Epoch [3/5], Step [21/52], Loss: 0.014360619708895683
+Epoch [3/5], Step [31/52], Loss: 0.013292448595166206
+Epoch [3/5], Step [41/52], Loss: 0.016641313210129738
+Epoch [3/5], Step [51/52], Loss: 0.014345516450703144
+Epoch [3/5], Training Loss: 0.01462068877970943, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06102810800075531, Accuracy: 0.7632940851106162, ROC-AUC: 0.8253649500464144
+Epoch [3/5], Validation RMSE: 0.06102810800075531, Accuracy: 0.7632940851106162, ROC-AUC: 0.8253649500464144
+Epoch [4/5], Step [1/52], Loss: 0.013995048590004444
+Epoch [4/5], Step [11/52], Loss: 0.012952514924108982
+Epoch [4/5], Step [21/52], Loss: 0.013938898220658302
+Epoch [4/5], Step [31/52], Loss: 0.01617211475968361
+Epoch [4/5], Step [41/52], Loss: 0.015509682707488537
+Epoch [4/5], Step [51/52], Loss: 0.014383483678102493
+Epoch [4/5], Training Loss: 0.0144765771065767, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06352495402097702, Accuracy: 0.797833068951583, ROC-AUC: 0.8237792955908511
+Epoch [4/5], Validation RMSE: 0.06352495402097702, Accuracy: 0.797833068951583, ROC-AUC: 0.8237792955908511
+Epoch [5/5], Step [1/52], Loss: 0.01575286313891411
+Epoch [5/5], Step [11/52], Loss: 0.012601889669895172
+Epoch [5/5], Step [21/52], Loss: 0.01298285461962223
+Epoch [5/5], Step [31/52], Loss: 0.01660730317234993
+Epoch [5/5], Step [41/52], Loss: 0.013232425786554813
+Epoch [5/5], Step [51/52], Loss: 0.01360718160867691
+Epoch [5/5], Training Loss: 0.014266392842938121, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06113535910844803, Accuracy: 0.7382965142866397, ROC-AUC: 0.8269849833183128
+Epoch [5/5], Validation RMSE: 0.06113535910844803, Accuracy: 0.7382965142866397, ROC-AUC: 0.8269849833183128
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22727515 18768037]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06113535910844803, Accuracy: 0.7382965142866397, ROC-AUC: 0.8269849833183128
+Fold 3, Validation RMSE: 0.06113535910844803, Accuracy: 0.7382965142866397, ROC-AUC: 0.8269849833183128
+Fold 4/5
+Loaded cached model from path_to_cached_model.pt
+Epoch [1/5], Step [1/52], Loss: 0.01398544106632471
+Epoch [1/5], Step [11/52], Loss: 0.014495126903057098
+Epoch [1/5], Step [21/52], Loss: 0.014525678008794785
+Epoch [1/5], Step [31/52], Loss: 0.013936592265963554
+Epoch [1/5], Step [41/52], Loss: 0.014169957488775253
+Epoch [1/5], Step [51/52], Loss: 0.013882489874958992
+Epoch [1/5], Training Loss: 0.01478588541683096, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.05867714062333107, Accuracy: 0.7492076114567653, ROC-AUC: 0.8384577384447083
+Epoch [1/5], Validation RMSE: 0.05867714062333107, Accuracy: 0.7492076114567653, ROC-AUC: 0.8384577384447083
+Epoch [2/5], Step [1/52], Loss: 0.014598442241549492
+Epoch [2/5], Step [11/52], Loss: 0.016318893060088158
+Epoch [2/5], Step [21/52], Loss: 0.013151212595403194
+Epoch [2/5], Step [31/52], Loss: 0.015620649792253971
+Epoch [2/5], Step [41/52], Loss: 0.014380151405930519
+Epoch [2/5], Step [51/52], Loss: 0.015278933569788933
+Epoch [2/5], Training Loss: 0.014346216482898364, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.060210973024368286, Accuracy: 0.7165404957138539, ROC-AUC: 0.8338926025941171
+Epoch [2/5], Validation RMSE: 0.060210973024368286, Accuracy: 0.7165404957138539, ROC-AUC: 0.8338926025941171
+Epoch [3/5], Step [1/52], Loss: 0.014428826980292797
+Epoch [3/5], Step [11/52], Loss: 0.014418257400393486
+Epoch [3/5], Step [21/52], Loss: 0.013659782707691193
+Epoch [3/5], Step [31/52], Loss: 0.015183597803115845
+Epoch [3/5], Step [41/52], Loss: 0.012530769221484661
+Epoch [3/5], Step [51/52], Loss: 0.017037739977240562
+Epoch [3/5], Training Loss: 0.014317144854710652, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.060873426496982574, Accuracy: 0.7563955095717247, ROC-AUC: 0.8175468380853679
+Epoch [3/5], Validation RMSE: 0.060873426496982574, Accuracy: 0.7563955095717247, ROC-AUC: 0.8175468380853679
+Epoch [4/5], Step [1/52], Loss: 0.015824289992451668
+Epoch [4/5], Step [11/52], Loss: 0.013286381028592587
+Epoch [4/5], Step [21/52], Loss: 0.015662597492337227
+Epoch [4/5], Step [31/52], Loss: 0.01599450781941414
+Epoch [4/5], Step [41/52], Loss: 0.01323853712528944
+Epoch [4/5], Step [51/52], Loss: 0.015262480825185776
+Epoch [4/5], Training Loss: 0.014130687770935206, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06730210781097412, Accuracy: 0.76540894310792635, ROC-AUC: 0.8225929757391809
+Epoch [4/5], Validation RMSE: 0.06730210781097412, Accuracy: 0.76540894310792635, ROC-AUC: 0.8225929757391809
+Epoch [5/5], Step [1/52], Loss: 0.014422147534787655
+Epoch [5/5], Step [11/52], Loss: 0.013335450552403927
+Epoch [5/5], Step [21/52], Loss: 0.012979721650481224
+Epoch [5/5], Step [31/52], Loss: 0.014188410714268684
+Epoch [5/5], Step [41/52], Loss: 0.01467427983880043
+Epoch [5/5], Step [51/52], Loss: 0.013942966237664223
+Epoch [5/5], Training Loss: 0.013970220049556632, LR: 0.0001
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06186981126666069, Accuracy: 0.7773708998978975, ROC-AUC: 0.8144478973000688
+Epoch [5/5], Validation RMSE: 0.06186981126666069, Accuracy: 0.7773708998978975, ROC-AUC: 0.8144478973000688
+All predictions shape: torch.Size([827, 1, 224, 224])
+All targets shape: torch.Size([827, 1, 224, 224])
+True labels distribution: [22980407 18515145]
+Total Samples: 827, All Predictions Shape: torch.Size([827, 1, 224, 224]), All Targets Shape: torch.Size([827, 1, 224, 224])
+RMSE: 0.06186981126666069, Accuracy: 0.7773708998978975, ROC-AUC: 0.8144478973000688
+Fold 4, Validation RMSE: 0.06186981126666069, Accuracy: 0.7773708998978975, ROC-AUC: 0.8144478973000688
+Fold 5/5
+Loaded cached model from path_to_cached_model.pt
+Epoch [1/5], Step [1/52], Loss: 0.013415100052952766
+Epoch [1/5], Step [11/52], Loss: 0.012490898370742798
+Epoch [1/5], Step [21/52], Loss: 0.013330417685210705
+Epoch [1/5], Step [31/52], Loss: 0.015812674537301064
+Epoch [1/5], Step [41/52], Loss: 0.015524161048233509
+Epoch [1/5], Step [51/52], Loss: 0.01478710025548935
+Epoch [1/5], Training Loss: 0.014876443319595777, LR: 0.0001
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.057930704206228256, Accuracy: 0.8257123178228616, ROC-AUC: 0.8576506635161731
+Epoch [1/5], Validation RMSE: 0.057930704206228256, Accuracy: 0.8257123178228616, ROC-AUC: 0.8576506635161731
+Epoch [2/5], Step [1/52], Loss: 0.014163259416818619
+Epoch [2/5], Step [11/52], Loss: 0.014943132176995277
+Epoch [2/5], Step [21/52], Loss: 0.012857707217335701
+Epoch [2/5], Step [31/52], Loss: 0.014577130787074566
+Epoch [2/5], Step [41/52], Loss: 0.013840061612427235
+Epoch [2/5], Step [51/52], Loss: 0.013685323297977448
+Epoch [2/5], Training Loss: 0.014120861834201675, LR: 0.0001
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.0578797273337841, Accuracy: 0.8163032614301774, ROC-AUC: 0.8502972096181497
+Epoch [2/5], Validation RMSE: 0.0578797273337841, Accuracy: 0.8163032614301774, ROC-AUC: 0.8502972096181497
+Epoch [3/5], Step [1/52], Loss: 0.013979371637105942
+Epoch [3/5], Step [11/52], Loss: 0.014109584502875805
+Epoch [3/5], Step [21/52], Loss: 0.014654538594186306
+Epoch [3/5], Step [31/52], Loss: 0.013467456214129925
+Epoch [3/5], Step [41/52], Loss: 0.01367888692766428
+Epoch [3/5], Step [51/52], Loss: 0.01695704646408558
+Epoch [3/5], Training Loss: 0.014027872767585974, LR: 0.0001
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.058034203946590424, Accuracy: 0.7960328698670751, ROC-AUC: 0.8333530067269438
+Epoch [3/5], Validation RMSE: 0.058034203946590424, Accuracy: 0.7960328698670751, ROC-AUC: 0.8333530067269438
+Epoch [4/5], Step [1/52], Loss: 0.013577835634350777
+Epoch [4/5], Step [11/52], Loss: 0.014372792094945908
+Epoch [4/5], Step [21/52], Loss: 0.013664515689015388
+Epoch [4/5], Step [31/52], Loss: 0.014572526328265667
+Epoch [4/5], Step [41/52], Loss: 0.013425671495497227
+Epoch [4/5], Step [51/52], Loss: 0.01302693784236908
+Epoch [4/5], Training Loss: 0.013772215228527784, LR: 0.0001
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.06240680068731308, Accuracy: 0.7909037862269605, ROC-AUC: 0.8446790307430736
+Epoch [4/5], Validation RMSE: 0.06240680068731308, Accuracy: 0.7909037862269605, ROC-AUC: 0.8446790307430736
+Epoch [5/5], Step [1/52], Loss: 0.013213276863098145
+Epoch [5/5], Step [11/52], Loss: 0.013162399642169476
+Epoch [5/5], Step [21/52], Loss: 0.01334359310567379
+Epoch [5/5], Step [31/52], Loss: 0.013662179931998253
+Epoch [5/5], Step [41/52], Loss: 0.014397913590073586
+Epoch [5/5], Step [51/52], Loss: 0.013686713762581348
+Epoch [5/5], Training Loss: 0.013716521654994441, LR: 0.0001
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.06088627874851227, Accuracy: 0.7455438030047067, ROC-AUC: 0.8191268970387346
+Epoch [5/5], Validation RMSE: 0.06088627874851227, Accuracy: 0.7455438030047067, ROC-AUC: 0.8191268970387346
+All predictions shape: torch.Size([826, 1, 224, 224])
+All targets shape: torch.Size([826, 1, 224, 224])
+True labels distribution: [23018589 18426787]
+Total Samples: 826, All Predictions Shape: torch.Size([826, 1, 224, 224]), All Targets Shape: torch.Size([826, 1, 224, 224])
+RMSE: 0.06088627874851227, Accuracy: 0.7455438030047067, ROC-AUC: 0.8191268970387346
+Fold 5, Validation RMSE: 0.06088627874851227, Accuracy: 0.7455438030047067, ROC-AUC: 0.8191268970387346
+Average Validation RMSE: 0.06264691054821014, Average Accuracy: 0.7668085962266972, Average ROC-AUC: 0.8176306331765553
+Loaded test images: torch.Size([1032, 3, 224, 224])
+Processed batch 17/17, total images processed: 1032
+Generated predicted fixations: torch.Size([1032, 1, 224, 224])
+Loaded test fixations: torch.Size([1032, 1, 224, 224])
+Test data predictions shape: torch.Size([1032, 1, 224, 224])
+True labels distribution: [ 5024283 46757349]
+Total Samples: 1032, All Predictions Shape: torch.Size([1032, 1, 224, 224]), All Targets Shape: torch.Size([1032, 1, 224, 224])
+RMSE: 0.0034679467789828777, Accuracy: 0.9734044821144301, ROC-AUC: nan
+Test RMSE: 0.0034679467789828777, Accuracy: 0.9734044821144301, ROC-AUC: nan
